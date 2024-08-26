@@ -6,6 +6,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/78a375ad34.js" crossorigin="anonymous"></script>
@@ -18,9 +21,7 @@
           },
           fontFamily: {
             manrope: ["Manrope", "sans-serif"],
-          },
-          backgroundImage: {
-            background: ["url('./assets/bg.jpg')"],
+            kaushan: ["Kaushan Script", "cursive"],
           },
         }
       }
@@ -53,7 +54,7 @@
     </nav>
     <div class="mx-auto px-4">
       <img class="mx-auto" src="./assets/banner.png" alt="">
-      <h1 class="text-5xl font-extrabold text-center mb-5">A barn house of this design has a <br> striking appearance</h1>
+      <h1 class="text-6xl font-extrabold text-center mb-5">A barn house of this design has a <br> striking appearance</h1>
       <p class="text-center w-3/5 mx-auto text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
       <div class="text-center mt-8">
         <button class="w-full lg:w-fit md:w-fit py-2 px-3 bg-lime-100 rounded-full font-bold">View Details <i class="fa-solid fa-arrow-right h-7 w-7 bg-lime-400 rounded-full text-gray-700 justify-center items-center inline-flex -rotate-45"></i></button>
@@ -168,7 +169,33 @@
         </div>
       </div>
     </section>
-    <section class="bg-[url('./assets/bg.jpg')] w-full bg-cover bg-center mt-14">
+    <section class="mx-auto px-4 py-6 lg:px-32 lg:pb-24 bg-gray-100 mt-8">
+      <div class="mb-8">
+        <div class="text-center my-4">
+          <button class="py-2 px-3 bg-lime-100 rounded-full font-bold"><i class="fa-solid fa-arrow-right h-7 w-7 text-gray-700 justify-center items-center inline-flex"></i> Explore Our Premium Projects</button>
+        </div>
+        <h1 class="text-center font-extrabold text-3xl mb-3">Our Premium Segment</h1>
+        <p class="text-gray-700 lg:w-2/3 mb-7 text-center mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-96 gap-4 font-kaushan">
+        <div class=" h-96 lg:row-span-2 rounded-xl p-4 bg-[url('./assets/e1.jpg')] w-full bg-cover bg-center">
+          <h1 class="text-4xl font-extrabold text-blue-100 text-">Springfield</h1>
+        </div>
+        <div class=" h-48 lg:h-full rounded-xl bg-[url('./assets/e0.jpg')] w-full bg-cover bg-center p-4">
+          <h1 class="text-4xl text-center font-semibold text-lime-900">Explore <br> Our Premium Projects</h1>
+        </div>
+        <div class=" grid grid-cols-2 gap-4 h-48 lg:h-full">
+          <div class=" rounded-xl bg-[url('./assets/e2.jpg')] w-full bg-cover bg-center p-3">
+            <h1 class="text-xl font-extrabold text-purple-100">Rosilian Hall
+            </h1>
+          </div>
+          <div class=" rounded-xl bg-[url('./assets/e4.jpg')] w-full bg-cover bg-center p-3">
+            <h1 class="text-xl font-extrabold text-slate-600">Taboo</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[url('./assets/bg.jpg')] w-full bg-cover bg-center">
       <div class="py-12 mx-auto">
         <div class="mx-auto px-4">
           <div class="text-center my-4">
@@ -190,7 +217,7 @@
             <textarea class=" w-full h-48 rounded-3xl p-4 border border-gray-300" name="" id="" placeholder="Enter your message here."></textarea>
           </div>
           <div class="w-full px-4 lg:px-0 mx-auto text-center lg:max-w-full mt-5">
-            <button class="w-full py-2 px-3 bg-lime-400 rounded-full font-bold">View Details <i class="fa-solid fa-arrow-right h-7 w-7 bg-gray-900 rounded-full text-white justify-center items-center inline-flex -rotate-45"></i></button>
+            <button class="w-full py-2 px-3 bg-lime-400 rounded-full font-bold">Send Mail <i class="fa-solid fa-arrow-right h-7 w-7 bg-gray-900 rounded-full text-white justify-center items-center inline-flex -rotate-45"></i></button>
           </div>
         </div>
       </div>
